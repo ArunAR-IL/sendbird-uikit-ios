@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29E9102B28B4FA860097603A /* ChatListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E9102A28B4FA850097603A /* ChatListVC.swift */; };
 		9C037E2E280432DB00059696 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C037DD4280432DB00059696 /* ViewController.swift */; };
 		9C037E2F280432DB00059696 /* UILabel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C037DD7280432DB00059696 /* UILabel+Ext.swift */; };
 		9C037E30280432DB00059696 /* UIImageView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C037DD8280432DB00059696 /* UIImageView+Ext.swift */; };
@@ -348,7 +347,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		29E9102A28B4FA850097603A /* ChatListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListVC.swift; sourceTree = "<group>"; };
 		9C037DD4280432DB00059696 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9C037DD5280432DB00059696 /* QuickStart.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = QuickStart.entitlements; sourceTree = "<group>"; };
 		9C037DD7280432DB00059696 /* UILabel+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Ext.swift"; sourceTree = "<group>"; };
@@ -692,7 +690,6 @@
 		9C037DD3280432DB00059696 /* QuickStart */ = {
 			isa = PBXGroup;
 			children = (
-				29E9102A28B4FA850097603A /* ChatListVC.swift */,
 				9C037DD4280432DB00059696 /* ViewController.swift */,
 				9C037DD5280432DB00059696 /* QuickStart.entitlements */,
 				9C037DD6280432DB00059696 /* Extension */,
@@ -2114,7 +2111,6 @@
 				A96B581E28ACDC18008C57EA /* SBUBaseChannelSettingsViewModel.swift in Sources */,
 				A96B58FE28ACDC18008C57EA /* SBUCreateChannelTypeSelector.swift in Sources */,
 				A96B584C28ACDC18008C57EA /* SBUGroupChannelModule.swift in Sources */,
-				29E9102B28B4FA860097603A /* ChatListVC.swift in Sources */,
 				A96B586528ACDC18008C57EA /* SBUMessageSearchModule.List.swift in Sources */,
 				A96B589A28ACDC18008C57EA /* SBUReactionCollectionViewCell.swift in Sources */,
 				9C037E31280432DB00059696 /* UIcolor+Ext.swift in Sources */,
