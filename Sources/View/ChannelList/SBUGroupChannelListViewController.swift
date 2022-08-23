@@ -79,7 +79,7 @@ open class SBUGroupChannelListViewController: SBUBaseChannelListViewController, 
     required public init(channelListQuery: GroupChannelListQuery? = nil) {
         super.init(nibName: nil, bundle: nil)
         SBULog.info("")
-        
+        print("#######channel initialized#####")
         self.createViewModel(channelListQuery: channelListQuery)
         self.headerComponent = SBUModuleSet.channelListModule.headerComponent
         self.listComponent = SBUModuleSet.channelListModule.listComponent

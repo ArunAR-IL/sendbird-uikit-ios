@@ -147,7 +147,7 @@ open class SBUGroupChannelListViewModel: NSObject {
     /// - Parameter reset: To reset the channel list
     public func loadNextChannelList(reset: Bool) {
         SBULog.info("[Request] Next channel List")
-        
+        print("request next channel")
         guard !self.isLoading else { return }
         
         if reset {
@@ -282,7 +282,11 @@ open class SBUGroupChannelListViewModel: NSObject {
         self.channelCollection = nil
     }
     
-    
+    public func updateChannelListQuery(newQuery:GroupChannelListQuery){
+        self.channelListQuery = newQuery
+        loadNextChannelList(reset: true)
+        print("#### reLoaded #####")
+    }
     // MARK: - SDK Relations
     
     /// Leaves the channel.

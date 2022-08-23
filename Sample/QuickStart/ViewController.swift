@@ -285,7 +285,7 @@ class ViewController: UIViewController {
     
     func startChatAction(type: ButtonType) {
         if type == .startChatWithVC {
-            let mainVC = SBUGroupChannelListViewController()
+            let mainVC = ChannelListVC()
             let naviVC = UINavigationController(rootViewController: mainVC)
             naviVC.modalPresentationStyle = .fullScreen
             present(naviVC, animated: true)
