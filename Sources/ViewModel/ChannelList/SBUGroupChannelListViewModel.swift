@@ -59,7 +59,12 @@ open class SBUGroupChannelListViewModel: NSObject {
     
     // MARK: - Property (private)
     private weak var delegate: SBUGroupChannelListViewModelDelegate?
-    private var customizedChannelListQuery: GroupChannelListQuery?
+    public var customizedChannelListQuery: GroupChannelListQuery?{
+        didSet{
+            self.loadNextChannelList(reset:true)
+        }
+    }
+   
     private(set) var isLoading = false
     
     
